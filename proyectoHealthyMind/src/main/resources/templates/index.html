@@ -1,63 +1,78 @@
-
 <html xmlns ="http://www.w3.org/1999/xhtml"
       xmlns:th="http://www.thymeleaf.org">
     <head th:replace="layout/plantilla ::head">
-
     </head>
     <body>
         <header th:replace = "layout/plantilla ::header"></header> 
         <div class="card-group">
-  <div class="card">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-</div>
+            <div class="card" style="border-color: yellow">
+                <img src="https://www.psicologosmadridcapital.com/wp-content/uploads/2018/01/en-que-consiste-depresion.jpg " 
+                     class="card-img-top" height="300" alt="...">
+                    <div class="card-body" >
+                        <h5 class="card-title" style="text-align: center">Depresión</h5>
+                        <p class="card-text" style="text-align: center">La depresión es una enfermedad común pero grave que interfiere con la vida diaria, con la capacidad para trabajar, dormir, estudiar, comer y disfrutar de la vida.</p>
+                        <a class="nav-link" th:href="@{/enfermedad/depre}" style="color: darkblue">[[#{plantilla.datos}]]</a>
+                        <p class="card-text" style="text-align: center"><small class="text-muted">Estamos para ayudarte</small></p>
+                    </div>
+            </div>
+            <br/>
+            <div class="card" style="border-color: yellow">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJSDWwZrErSPQbU2v7dEdMvUvy92A1IaBPKw&usqp=CAU"
+                     alt="..." height="300" >
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center">Miedo al rechazo</h5>
+                        <p class="card-text" style="text-align: center">Normalmente el rechazo supone en las personas un gran trauma, ya que no saben como afrontarlo</p>
+                        <a class="nav-link" th:href="@{/enfermedad/rechazo}" style="color: darkblue">[[#{plantilla.datos}]]</a>
+                        <p class="card-text" style="text-align: center"><small class="text-muted">Estamos para ayudarte</small></p>
+                    </div>
+            </div>
+            <br/>
+            <div class="card" style="border-color: yellow">
+                <img src="https://sandracohenphd.com/wp-content/uploads/2019/04/Depositphotos_243471078_s-2019.jpg"
+                     class="card-img-top" alt="..." height="300" width="60">
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center">Ansiedad</h5>
+                        <p class="card-text" style="text-align: center">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <a class="nav-link" th:href="@{/enfermedad/ansiedad}" style= "text-align: center" >[[#{plantilla.datos}]]</a>
+                        <p class="card-text" style="text-align: center"><small class="text-muted">Estamos para ayudarte</small></p>
+                    </div>
+            </div>
+            <br/>
+        </div>
         <div class="card-group">
-  <div class="card">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-</div>
-
+            <div class="card" style="border-color: yellow">
+                <img src=" https://images.hola.com/imagenes/estar-bien/20221215222824/soledad-sentimiento-psicologia/1-177-613/mujer-banco-t.jpg?tx=w_680" class="card-img-top" 
+                     alt="..." height="300">
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center">Cómo Amarse en Soledad</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <a class="nav-link" th:href="@{/enfermedad/soledad}" style= "text-align: center" >[[#{plantilla.datos}]]</a>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+            </div>
+            <br/>
+            <div class="card" style="border-color: yellow">
+                <img src="https://www.ctvtietar.com/fileuploads/noticias/diseno-sin-titulo-33.png" 
+                     height="300" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center">Prevención del Suicidio</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <a class="nav-link" th:href="@{/enfermedad/suicidio}" style= "text-align: center" >[[#{plantilla.datos}]]</a>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+            </div>
+            <br/>
+            <div class="card" style="border-color: yellow">
+                <img src="https://s1.abcstatics.com/media/bienestar/2021/11/19/estres-kSZD--1248x698@abc.jpg" 
+                     class="card-img-top" height= "300" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center">Gestionar el Estrés</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <a class="nav-link" th:href="@{/enfermedad/estres}" style= "text-align: center" >[[#{plantilla.datos}]]</a>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+            </div>
+            <br/>
+        </div>
     </body>
 </html>
